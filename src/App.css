@@ -3,13 +3,26 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
   
 }
+.bg-container{
+  background-image:url("image/chicken.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:20rem;
+  width:100%;
+}
+/* .bg-container:hover{
+  background-image:url("image/chicken.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:22rem;
+  width:100%;
 
+} */
 .select-meal{
   padding:0.6rem;
-  background-color: lightblue;
+  background-color: skyblue;
   border:none;
   color:white;
   border-radius: 0.4rem;
@@ -17,7 +30,7 @@
 }
 .select-diet{
   padding:0.6rem;
-  background-color: lightblue;
+  background-color: skyblue;
   border:none;
   color:white;
   border-radius: 0.4rem;
@@ -26,7 +39,7 @@
 
 .submit_btn{
   padding:0.6rem;
-  background-color: lightblue;
+  background-color: skyblue;
   border:none;
   color:white;
   border-radius: 0.4rem;
@@ -35,7 +48,8 @@
 
 .search_field{
   padding:0.6rem;
-  background-color: lightblue;
+  background-color: skyblue;
+  width:20rem;
   border:none;
   color:white;
   border-radius: 0.4rem;
@@ -75,4 +89,29 @@
  .card-img-top{
   width:9rem;
  }
+}
+span{
+  color:cyan;
+  font-family: 'Courier New', Courier, monospace;
+}
+.card:hover{
+  background-color: aliceblue;
+}
+.para{
+  margin-top: -0.5rem;
+  color:azure;
+}
+.para span{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:red;
+  font-size: 1.5rem;
+}
+.name{
+  color:white;
+}
+.weight{
+  color:red;
+}
+.source{
+  color:blue;
 }
